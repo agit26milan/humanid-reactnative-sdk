@@ -20,6 +20,7 @@ const configureHumanID: IConfigureHumanID = (params) => {
 };
 
 const logIn: ILogIn = () => {
+  console.log('hehe')
   HumanIDProvider.ref?.logIn();
 };
 
